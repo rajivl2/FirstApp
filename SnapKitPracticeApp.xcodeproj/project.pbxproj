@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61CC3EF622E6CD0D0016552D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC3EF522E6CD0D0016552D /* AppDelegate.swift */; };
+		61CC3EF822E6CD0D0016552D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC3EF722E6CD0D0016552D /* LogInViewController.swift */; };
+		61CC3EFD22E6CD0D0016552D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61CC3EFC22E6CD0D0016552D /* Assets.xcassets */; };
+		61CC3F0022E6CD0D0016552D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CC3EFE22E6CD0D0016552D /* LaunchScreen.storyboard */; };
+		61CC3F0B22E6CD0D0016552D /* SnapKitPracticeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC3F0A22E6CD0D0016552D /* SnapKitPracticeAppTests.swift */; };
+		61CC3F1622E6CD0D0016552D /* SnapKitPracticeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC3F1522E6CD0D0016552D /* SnapKitPracticeAppUITests.swift */; };
+		61CC3F2422E7157B0016552D /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CC3F2322E7157B0016552D /* SnapKit.framework */; };
+		61CC3F2522E7157B0016552D /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 61CC3F2322E7157B0016552D /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		61CC3F2822E740B10016552D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC3F2722E740B10016552D /* HomeViewController.swift */; };
+		61CC3F2A22E81DB10016552D /* FlightsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC3F2922E81DB10016552D /* FlightsTableViewController.swift */; };
+		61CC3F2F22E81E200016552D /* FlightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC3F2E22E81E200016552D /* FlightViewModel.swift */; };
+		61CC3F3122E81FDE0016552D /* FlightResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC3F3022E81FDE0016552D /* FlightResult.swift */; };
+		61CC3F3322E820820016552D /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC3F3222E820820016552D /* Quotes.swift */; };
+		61CC3F3522E821FB0016552D /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC3F3422E821FB0016552D /* Places.swift */; };
+		61CC3F3722E824F00016552D /* Carriers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC3F3622E824F00016552D /* Carriers.swift */; };
+		61CC3F3922E825370016552D /* Currencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC3F3822E825370016552D /* Currencies.swift */; };
+		61CC3F3B22E829930016552D /* FlightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC3F3A22E829930016552D /* FlightTableViewCell.swift */; };
+		61CC3F3D22E8701B0016552D /* FlightDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC3F3C22E8701B0016552D /* FlightDetailsViewController.swift */; };
+		61CC3F3F22E973120016552D /* PlaceResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC3F3E22E973120016552D /* PlaceResults.swift */; };
+		61CC3F4122E9757D0016552D /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC3F4022E9757D0016552D /* Place.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61CC3F0722E6CD0D0016552D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61CC3EEA22E6CD0D0016552D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61CC3EF122E6CD0D0016552D;
+			remoteInfo = SnapKitPracticeApp;
+		};
+		61CC3F1222E6CD0D0016552D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61CC3EEA22E6CD0D0016552D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61CC3EF122E6CD0D0016552D;
+			remoteInfo = SnapKitPracticeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		61CC3F2622E7157B0016552D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				61CC3F2522E7157B0016552D /* SnapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		61CC3EF222E6CD0D0016552D /* SnapKitPracticeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapKitPracticeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CC3EF522E6CD0D0016552D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61CC3EF722E6CD0D0016552D /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		61CC3EFC22E6CD0D0016552D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61CC3EFF22E6CD0D0016552D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61CC3F0122E6CD0D0016552D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61CC3F0622E6CD0D0016552D /* SnapKitPracticeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapKitPracticeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CC3F0A22E6CD0D0016552D /* SnapKitPracticeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitPracticeAppTests.swift; sourceTree = "<group>"; };
+		61CC3F0C22E6CD0D0016552D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61CC3F1122E6CD0D0016552D /* SnapKitPracticeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapKitPracticeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CC3F1522E6CD0D0016552D /* SnapKitPracticeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitPracticeAppUITests.swift; sourceTree = "<group>"; };
+		61CC3F1722E6CD0D0016552D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61CC3F2322E7157B0016552D /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		61CC3F2722E740B10016552D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		61CC3F2922E81DB10016552D /* FlightsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsTableViewController.swift; sourceTree = "<group>"; };
+		61CC3F2E22E81E200016552D /* FlightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightViewModel.swift; sourceTree = "<group>"; };
+		61CC3F3022E81FDE0016552D /* FlightResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightResult.swift; sourceTree = "<group>"; };
+		61CC3F3222E820820016552D /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		61CC3F3422E821FB0016552D /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		61CC3F3622E824F00016552D /* Carriers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carriers.swift; sourceTree = "<group>"; };
+		61CC3F3822E825370016552D /* Currencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currencies.swift; sourceTree = "<group>"; };
+		61CC3F3A22E829930016552D /* FlightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTableViewCell.swift; sourceTree = "<group>"; };
+		61CC3F3C22E8701B0016552D /* FlightDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailsViewController.swift; sourceTree = "<group>"; };
+		61CC3F3E22E973120016552D /* PlaceResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceResults.swift; sourceTree = "<group>"; };
+		61CC3F4022E9757D0016552D /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61CC3EEF22E6CD0D0016552D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CC3F2422E7157B0016552D /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CC3F0322E6CD0D0016552D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CC3F0E22E6CD0D0016552D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61CC3EE922E6CD0D0016552D = {
+			isa = PBXGroup;
+			children = (
+				61CC3F2D22E81DE00016552D /* Views */,
+				61CC3F2C22E81DCF0016552D /* ViewModels */,
+				61CC3F2B22E81DC30016552D /* Models */,
+				61CC3F2322E7157B0016552D /* SnapKit.framework */,
+				61CC3EF422E6CD0D0016552D /* SnapKitPracticeApp */,
+				61CC3F0922E6CD0D0016552D /* SnapKitPracticeAppTests */,
+				61CC3F1422E6CD0D0016552D /* SnapKitPracticeAppUITests */,
+				61CC3EF322E6CD0D0016552D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61CC3EF322E6CD0D0016552D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61CC3EF222E6CD0D0016552D /* SnapKitPracticeApp.app */,
+				61CC3F0622E6CD0D0016552D /* SnapKitPracticeAppTests.xctest */,
+				61CC3F1122E6CD0D0016552D /* SnapKitPracticeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61CC3EF422E6CD0D0016552D /* SnapKitPracticeApp */ = {
+			isa = PBXGroup;
+			children = (
+				61CC3EF522E6CD0D0016552D /* AppDelegate.swift */,
+				61CC3EFC22E6CD0D0016552D /* Assets.xcassets */,
+				61CC3EFE22E6CD0D0016552D /* LaunchScreen.storyboard */,
+				61CC3F0122E6CD0D0016552D /* Info.plist */,
+			);
+			path = SnapKitPracticeApp;
+			sourceTree = "<group>";
+		};
+		61CC3F0922E6CD0D0016552D /* SnapKitPracticeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				61CC3F0A22E6CD0D0016552D /* SnapKitPracticeAppTests.swift */,
+				61CC3F0C22E6CD0D0016552D /* Info.plist */,
+			);
+			path = SnapKitPracticeAppTests;
+			sourceTree = "<group>";
+		};
+		61CC3F1422E6CD0D0016552D /* SnapKitPracticeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61CC3F1522E6CD0D0016552D /* SnapKitPracticeAppUITests.swift */,
+				61CC3F1722E6CD0D0016552D /* Info.plist */,
+			);
+			path = SnapKitPracticeAppUITests;
+			sourceTree = "<group>";
+		};
+		61CC3F2B22E81DC30016552D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				61CC3F3022E81FDE0016552D /* FlightResult.swift */,
+				61CC3F3222E820820016552D /* Quotes.swift */,
+				61CC3F3422E821FB0016552D /* Places.swift */,
+				61CC3F3622E824F00016552D /* Carriers.swift */,
+				61CC3F3822E825370016552D /* Currencies.swift */,
+				61CC3F3E22E973120016552D /* PlaceResults.swift */,
+				61CC3F4022E9757D0016552D /* Place.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		61CC3F2C22E81DCF0016552D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				61CC3F2E22E81E200016552D /* FlightViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		61CC3F2D22E81DE00016552D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				61CC3EF722E6CD0D0016552D /* LogInViewController.swift */,
+				61CC3F2722E740B10016552D /* HomeViewController.swift */,
+				61CC3F2922E81DB10016552D /* FlightsTableViewController.swift */,
+				61CC3F3A22E829930016552D /* FlightTableViewCell.swift */,
+				61CC3F3C22E8701B0016552D /* FlightDetailsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61CC3EF122E6CD0D0016552D /* SnapKitPracticeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61CC3F1A22E6CD0D0016552D /* Build configuration list for PBXNativeTarget "SnapKitPracticeApp" */;
+			buildPhases = (
+				61CC3EEE22E6CD0D0016552D /* Sources */,
+				61CC3EEF22E6CD0D0016552D /* Frameworks */,
+				61CC3EF022E6CD0D0016552D /* Resources */,
+				61CC3F2622E7157B0016552D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKitPracticeApp;
+			productName = SnapKitPracticeApp;
+			productReference = 61CC3EF222E6CD0D0016552D /* SnapKitPracticeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61CC3F0522E6CD0D0016552D /* SnapKitPracticeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61CC3F1D22E6CD0D0016552D /* Build configuration list for PBXNativeTarget "SnapKitPracticeAppTests" */;
+			buildPhases = (
+				61CC3F0222E6CD0D0016552D /* Sources */,
+				61CC3F0322E6CD0D0016552D /* Frameworks */,
+				61CC3F0422E6CD0D0016552D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61CC3F0822E6CD0D0016552D /* PBXTargetDependency */,
+			);
+			name = SnapKitPracticeAppTests;
+			productName = SnapKitPracticeAppTests;
+			productReference = 61CC3F0622E6CD0D0016552D /* SnapKitPracticeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61CC3F1022E6CD0D0016552D /* SnapKitPracticeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61CC3F2022E6CD0D0016552D /* Build configuration list for PBXNativeTarget "SnapKitPracticeAppUITests" */;
+			buildPhases = (
+				61CC3F0D22E6CD0D0016552D /* Sources */,
+				61CC3F0E22E6CD0D0016552D /* Frameworks */,
+				61CC3F0F22E6CD0D0016552D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61CC3F1322E6CD0D0016552D /* PBXTargetDependency */,
+			);
+			name = SnapKitPracticeAppUITests;
+			productName = SnapKitPracticeAppUITests;
+			productReference = 61CC3F1122E6CD0D0016552D /* SnapKitPracticeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61CC3EEA22E6CD0D0016552D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ford Labs";
+				TargetAttributes = {
+					61CC3EF122E6CD0D0016552D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					61CC3F0522E6CD0D0016552D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 61CC3EF122E6CD0D0016552D;
+					};
+					61CC3F1022E6CD0D0016552D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 61CC3EF122E6CD0D0016552D;
+					};
+				};
+			};
+			buildConfigurationList = 61CC3EED22E6CD0D0016552D /* Build configuration list for PBXProject "SnapKitPracticeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61CC3EE922E6CD0D0016552D;
+			productRefGroup = 61CC3EF322E6CD0D0016552D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61CC3EF122E6CD0D0016552D /* SnapKitPracticeApp */,
+				61CC3F0522E6CD0D0016552D /* SnapKitPracticeAppTests */,
+				61CC3F1022E6CD0D0016552D /* SnapKitPracticeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61CC3EF022E6CD0D0016552D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CC3F0022E6CD0D0016552D /* LaunchScreen.storyboard in Resources */,
+				61CC3EFD22E6CD0D0016552D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CC3F0422E6CD0D0016552D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CC3F0F22E6CD0D0016552D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61CC3EEE22E6CD0D0016552D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CC3F3B22E829930016552D /* FlightTableViewCell.swift in Sources */,
+				61CC3F3F22E973120016552D /* PlaceResults.swift in Sources */,
+				61CC3F3322E820820016552D /* Quotes.swift in Sources */,
+				61CC3EF822E6CD0D0016552D /* LogInViewController.swift in Sources */,
+				61CC3F2F22E81E200016552D /* FlightViewModel.swift in Sources */,
+				61CC3F4122E9757D0016552D /* Place.swift in Sources */,
+				61CC3EF622E6CD0D0016552D /* AppDelegate.swift in Sources */,
+				61CC3F3D22E8701B0016552D /* FlightDetailsViewController.swift in Sources */,
+				61CC3F3922E825370016552D /* Currencies.swift in Sources */,
+				61CC3F3722E824F00016552D /* Carriers.swift in Sources */,
+				61CC3F2A22E81DB10016552D /* FlightsTableViewController.swift in Sources */,
+				61CC3F3122E81FDE0016552D /* FlightResult.swift in Sources */,
+				61CC3F2822E740B10016552D /* HomeViewController.swift in Sources */,
+				61CC3F3522E821FB0016552D /* Places.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CC3F0222E6CD0D0016552D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CC3F0B22E6CD0D0016552D /* SnapKitPracticeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CC3F0D22E6CD0D0016552D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CC3F1622E6CD0D0016552D /* SnapKitPracticeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61CC3F0822E6CD0D0016552D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61CC3EF122E6CD0D0016552D /* SnapKitPracticeApp */;
+			targetProxy = 61CC3F0722E6CD0D0016552D /* PBXContainerItemProxy */;
+		};
+		61CC3F1322E6CD0D0016552D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61CC3EF122E6CD0D0016552D /* SnapKitPracticeApp */;
+			targetProxy = 61CC3F1222E6CD0D0016552D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61CC3EFE22E6CD0D0016552D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61CC3EFF22E6CD0D0016552D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61CC3F1822E6CD0D0016552D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61CC3F1922E6CD0D0016552D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61CC3F1B22E6CD0D0016552D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6STTB54X7G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = SnapKitPracticeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajiv.lochan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61CC3F1C22E6CD0D0016552D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6STTB54X7G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = SnapKitPracticeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajiv.lochan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61CC3F1E22E6CD0D0016552D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnapKitPracticeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = f.SnapKitPracticeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapKitPracticeApp.app/SnapKitPracticeApp";
+			};
+			name = Debug;
+		};
+		61CC3F1F22E6CD0D0016552D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnapKitPracticeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = f.SnapKitPracticeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapKitPracticeApp.app/SnapKitPracticeApp";
+			};
+			name = Release;
+		};
+		61CC3F2122E6CD0D0016552D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnapKitPracticeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = f.SnapKitPracticeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapKitPracticeApp;
+			};
+			name = Debug;
+		};
+		61CC3F2222E6CD0D0016552D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnapKitPracticeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = f.SnapKitPracticeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapKitPracticeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61CC3EED22E6CD0D0016552D /* Build configuration list for PBXProject "SnapKitPracticeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CC3F1822E6CD0D0016552D /* Debug */,
+				61CC3F1922E6CD0D0016552D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61CC3F1A22E6CD0D0016552D /* Build configuration list for PBXNativeTarget "SnapKitPracticeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CC3F1B22E6CD0D0016552D /* Debug */,
+				61CC3F1C22E6CD0D0016552D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61CC3F1D22E6CD0D0016552D /* Build configuration list for PBXNativeTarget "SnapKitPracticeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CC3F1E22E6CD0D0016552D /* Debug */,
+				61CC3F1F22E6CD0D0016552D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61CC3F2022E6CD0D0016552D /* Build configuration list for PBXNativeTarget "SnapKitPracticeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CC3F2122E6CD0D0016552D /* Debug */,
+				61CC3F2222E6CD0D0016552D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61CC3EEA22E6CD0D0016552D /* Project object */;
+}
